@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "lucacelli-hackernews-tech-launch-lead-monitor": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@apify/actors-mcp-server",
+        "--actors",
+        "lucacelli/hackernews-tech-launch-lead-monitor"
+      ],
+      "env": {
+        "APIFY_TOKEN": "YOUR_APIFY_TOKEN_HERE"
+      }
+    }
+  }
+}
