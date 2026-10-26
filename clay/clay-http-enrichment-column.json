@@ -1,0 +1,17 @@
+{
+  "platform": "Clay.com HTTP API Enrichment Column",
+  "actorTitle": "Hacker News Launch, Show HN & Tech Founder Lead Monitor",
+  "actorStoreUrl": "https://apify.com/lucacelli/hackernews-tech-launch-lead-monitor",
+  "costComparison": "$0.0005 per story ($0.50/1k) vs. $0.10–$0.50 per row in native Clay credits (98% savings)",
+  "httpApiConfiguration": {
+    "method": "POST",
+    "endpoint": "https://api.apify.com/v2/acts/lucacelli~hackernews-tech-launch-lead-monitor/run-sync-get-dataset-items?token=YOUR_APIFY_TOKEN",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyTemplate": {
+      "feedType": "show",
+      "maxItems": 50
+    }
+  }
+}
